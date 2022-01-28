@@ -1459,12 +1459,12 @@ function animaractcomercio() {
                 type: 'bar',
                 data: {
 
-                    labels: ['Bajas comerciales', 'Altas comerciales', 'Lib. Sanitarias nuevas', 'Renovaciones'],
+                    labels: ['Bajas comerciales', 'Altas comerciales','Renovaciones','Lib. Sanitarias nuevas'],
                     datasets: [
                         {
                             tension: 0.1,
                             fill: false,
-                            data: [243,254,354,1018],
+                            data: [243,254,1018,354],
                             fill: true,
                             backgroundColor: ['rgba(71, 123, 168, 1)', 'rgba(105, 190, 190, 1)', 'rgba(215, 90, 218, 0.5)',
 
